@@ -1,0 +1,23 @@
+{
+  "name": "koa-cli",
+  "version": "0.1.0",
+  "description": "Koa.js scaffolding CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiouen/koa-cli.git"
+  },
+  "keywords": [
+    "koa",
+    "cli"
+  ],
+  "author": "Olivier Van Aken <olivier.va@outlook.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shiouen/koa-cli/issues"
+  },
+  "homepage": "https://github.com/shiouen/koa-cli#readme"
+}
