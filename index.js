@@ -4,9 +4,11 @@ const cli = require('commander');
 
 const { version } = require('./package');
 
-cli.command('init').action((cmd) => {
-  console.log('Hello!');
-});
+cli
+  .command('init <project>')
+  .action((project, cmd) => {
+    console.log(`Hello ${project}`);
+  });
 
 cli.version(version, '-v, --version');
 cli.parse(process.argv);
